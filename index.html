@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IECP Vila Sahy</title>
+  <meta name="description" content="IECP Vila Sahy - Igreja Evangélica Cristo é Poder. Jesus restaurando vidas. Cultos, ministérios, agenda, localização e mais.">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="icon" href="images/iecp.jpg" type="image/jpeg">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #000;
+      color: white;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    .logo img {
+      max-height: 60px;
+    }
+    .btn-inicio {
+      background-color: #222;
+      color: white;
+      border: none;
+      padding: 0.4rem 1rem;
+      border-radius: 4px;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+    }
+    .btn-inicio:hover {
+      background-color: #444;
+      color: white;
+    }
+    .hero {
+      height: 100vh;
+      background-image: url('images/multiplicacao.jpeg');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 1;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 90%;
+      padding: 1rem;
+    }
+    .hero h1 {
+      font-size: 4rem;
+      font-weight: bold;
+    }
+    .hero h2 {
+      font-size: 1.5rem;
+    }
+    .rounded-circle {
+      object-fit: cover;
+    }
+    .carousel-inner img {
+      max-height;
+      object-fit: contain;
+      background-color: #000; /* fundo escuro para fotos verticais */
+    }
+
+  </style>
+</head>
+<body id="top">
+
+<!-- Header -->
+<header>
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center logo">
+      <img src="images/iecp.jpg" alt="Logo IECP" class="me-2">
+      <span class="fw-bold fs-5 text-white">IECP Vila Sahy</span>
+    </div>
+    <div class="d-flex align-items-center gap-3">
+      <nav>
+        <ul class="nav mb-0">
+          <li class="nav-item"><a class="nav-link text-white" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#pastores">Pastores</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#ministerios">Ministérios</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#dizimos">Dízimos</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#agenda">Agenda</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#fotos">Fotos</a></li>
+        </ul>
+      </nav>
+      <a href="#top" class="btn-inicio" aria-label="Voltar ao início">Início</a>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-content" data-aos="fade-up">
+    <h1>IECP Vila Sahy</h1>
+    <h2>2025, O Ano Da Multiplicação</h2>
+  </div>
+</section>
+
+<!-- Sobre Nós -->
+<section id="sobre" class="py-5">
+  <div class="container text-center">
+    <h2 data-aos="fade-up">Sobre Nós</h2>
+    <p data-aos="fade-up" data-aos-delay="100">
+      A IECP Vila Sahy é uma igreja cristã evangélica que existe para glorificar a Deus e transformar vidas por meio do evangelho de Jesus Cristo. Com uma mensagem centrada na Bíblia e um ambiente acolhedor, buscamos ser uma família espiritual onde todos se sintam amados, valorizados e desafiados a crescer em fé. Nosso propósito é alcançar pessoas, restaurar corações e formar discípulos comprometidos com o Reino de Deus. Acreditamos que cada pessoa tem um chamado e um propósito, e por isso incentivamos o envolvimento nos ministérios da igreja, como louvor, ensino, evangelismo, ação social, jovens e crianças. Realizamos cultos semanais, reuniões de oração, eventos especiais, discipulados e ações sociais voltadas à comunidade, buscando não apenas anunciar o evangelho, mas vivê-lo de forma prática. Nosso lema é "Jesus Restaurando Vidas", pois cremos que somente Ele é capaz de curar feridas, renovar esperanças e dar um novo sentido à vida. Se você procura um lugar para crescer espiritualmente e caminhar com uma família de fé, a IECP Vila Sahy está de portas abertas para você.
+    </p>
+  </div>
+</section>
+
+<!-- Pastores -->
+<section id="pastores" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 data-aos="fade-up">Nossos Pastores</h2>
+    <div class="row mt-4">
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <img src="images/multiplicacao.jpeg" alt="Pr. Elinaldo" class="rounded-circle mb-3" width="150" height="150">
+        <h5>Pr. Elinaldo</h5>
+        <p>Pastor Titular</p>
+      </div>
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <img src="images/multiplicacao.jpeg" alt="Pra. Alzenir" class="rounded-circle mb-3" width="150" height="150">
+        <h5>Pra. Alzenir</h5>
+        <p>Pastora Auxiliar</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Ministérios -->
+<section id="ministerios" class="py-5">
+  <div class="container text-center">
+    <h2 data-aos="fade-up">Ministérios</h2>
+    <p data-aos="fade-up" data-aos-delay="100">Conheça nossos ministérios e como participar.</p>
+    <div class="row mt-4">
+      <div class="col-md-4" data-aos="zoom-in">
+        <div class="card shadow-sm h-100">
+          <img src="images/iecp.jpg" class="card-img-top" alt="Ministério de Louvor">
+          <div class="card-body">
+            <h5 class="card-title">Louvor</h5>
+            <p class="card-text">O Ministério de Louvor tem como missão conduzir a igreja à presença de Deus por meio da música. Com excelência e coração voltado à adoração, buscamos criar ambientes onde o Espírito Santo possa agir livremente.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card shadow-sm h-100">
+          <img src="images/iecp.jpg" class="card-img-top" alt="Ministério Infantil">
+          <div class="card-body">
+            <h5 class="card-title">Infantil</h5>
+            <p class="card-text">Nosso Ministério Infantil tem o compromisso de ensinar a Palavra de Deus às crianças com amor, criatividade e diversão. Queremos que os pequenos cresçam conhecendo e amando Jesus desde cedo.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card shadow-sm h-100">
+          <img src="images/iecp.jpg" class="card-img-top" alt="Ministério de Evangelismo">
+          <div class="card-body">
+            <h5 class="card-title">Evangelismo</h5>
+            <p class="card-text">O Ministério de Evangelismo é voltado para levar a mensagem do amor de Jesus às ruas, casas e corações. Realizamos ações sociais, visitas, cultos ao ar livre e apoio às famílias carentes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Dízimos -->
+<section id="dizimos" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 data-aos="fade-up">Dízimos</h2>
+    <p data-aos="fade-up" data-aos-delay="100">Você pode contribuir com fé e generosidade.</p>
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <p><strong>Pix:</strong> 33.661.501/0001-78</p>
+        <p><strong>Banco:</strong> Cora — Agência 1 — Conta 4439848-6</p>
+        <p>Envie seu comprovante pelo WhatsApp ou entregue pessoalmente.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Agenda -->
+<section id="agenda" class="py-5">
+  <div class="container text-center">
+    <h2 data-aos="fade-up">Agenda</h2>
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-8" data-aos="fade-up" data-aos-delay="200">
+        <ul class="list-group">
+          <li class="list-group-item">🗓️ <strong>Domingo - 19h30:</strong> Culto</li>
+          <li class="list-group-item">🗓️ <strong>Terça - 08h:</strong> Oração</li>
+          <li class="list-group-item">🗓️ <strong>Quarta - 19h30:</strong> Culto</li>
+          <li class="list-group-item">📍 <strong>Endereço:</strong> Rua Luis Basílio dos Santos, 12 - Vila Sahy</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Galeria de Fotos -->
+<section id="fotos" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 data-aos="fade-up">Galeria de Fotos</h2>
+    <p data-aos="fade-up" data-aos-delay="100">Veja alguns momentos especiais da IECP Vila Sahy.</p>
+
+    <div id="carouselGaleria" class="carousel slide mt-4" data-bs-ride="carousel">
+      <!-- Indicadores -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselGaleria" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselGaleria" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselGaleria" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <!-- Slides -->
+      <div class="carousel-inner rounded shadow">
+        <div class="carousel-item active">
+          <img src="images/t1.jpg" class="d-block w-100" alt="Culto IECP Vila Sahy">
+        </div>
+        <div class="carousel-item">
+          <img src="images/f2.jpg" class="d-block w-100" alt="Foto IECP 1">
+        </div>
+        <div class="carousel-item">
+          <img src="images/f3.jpg" class="d-block w-100" alt="Foto IECP 2">
+        </div>
+      </div>
+
+      <!-- Controles -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselGaleria" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselGaleria" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- Rodapé -->
+<footer class="bg-dark text-white text-center py-4">
+  <div class="container">
+    <p class="mb-1">&copy; 2025 IECP Vila Sahy. Todos os direitos reservados.</p>
+    <p class="mb-1"><strong>Endereço:</strong> Rua Luis Basílio dos Santos, 12 - Vila Sahy</p>
+    <p class="mb-0">
+      <a href="https://www.instagram.com/iecpvilasahy?igsh=MW1ydzVxaGI5ZjA3cw==" target="_blank" class="text-white">Siga-nos no Instagram @iecpvilasahy</a>
+    </p>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
